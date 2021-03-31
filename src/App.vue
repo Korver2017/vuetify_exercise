@@ -5,6 +5,12 @@
   -->
 <template>
   <div id="app">
+    <h1>App Component</h1>
+    <v-app>
+      <v-main>
+        <v-container>Hello world</v-container>
+      </v-main>
+    </v-app>
   </div>
 </template>
 
