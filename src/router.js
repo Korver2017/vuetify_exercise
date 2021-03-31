@@ -14,23 +14,16 @@ import Router from 'vue-router'
 Vue.use (Router)
 
 // Export
-export default new Router({
+export default new Router ({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
 
-    // Home (首頁)
-    {
-      path: '/',
-      name: 'Home',
-      component: () => import ('@/views/home.vue')
-    },
-
-    // About (關於我)
-    {
-      path: '/about',
-      name: 'About',
-      component: () => import ('@/views/about.vue')
-    },
+    // // Home (首頁)
+    // {
+    //   path: '/',
+    //   name: 'Home',
+    //   component: () => import ('@/views/Home.vue')
+    // },
   ]
-})
+});

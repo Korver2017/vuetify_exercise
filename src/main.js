@@ -21,7 +21,7 @@
    */
 
   // Script
-  import app from '@/app.vue';
+  import app from '@/App.vue';
   import router from '@/router';
   import api from '@/vendors/axios/loader.js';
   import store from '@/store';
