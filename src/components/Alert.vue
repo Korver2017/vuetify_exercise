@@ -4,16 +4,33 @@
   *
   -->
 <template>
-  <div id="app">
-    <v-app>
-      <v-main>
-        <v-container>
-          <Alert />
-        </v-container>
-      </v-main>
-    </v-app>
+  <div>
+    <v-alert type="success">
+      I'm a success alert.
+    </v-alert>
+
+    <v-alert type="info">
+      I'm an info alert.
+    </v-alert>
+
+    <v-alert type="warning">
+      I'm a warning alert.
+    </v-alert>
+
+    <v-alert type="error">
+      I'm an error alert.
+    </v-alert>
   </div>
 </template>
+
+
+<!--
+  *
+  * Style
+  *
+  -->
+<style scoped>
+</style>
 
 
 <!--
@@ -22,9 +39,6 @@
   *
   -->
 <script>
-
-  // Components
-  import Alert from './components/Alert';
 
   // Component
   export default {
@@ -35,7 +49,7 @@
      * Component name
      *
      */
-    name: 'App',
+    name: 'Alert',
 
 
     /**
@@ -44,7 +58,6 @@
      *
      */
     components: {
-      Alert,
     },
 
 
